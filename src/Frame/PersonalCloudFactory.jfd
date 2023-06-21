@@ -1,0 +1,63 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space ::39:x, comp panel1:::p::p, space :p:32:p}}"
+			"$verticalGroup": "par l {seq l {space :p:23:p, comp panel1:::p::p, space ::25:x}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {par l {seq l {space :::p, comp scrollPane1:::p:620:p}, seq l {comp formattedTextField1:::p:157:p, space s:::p, par t:::p {seq {comp button4:::p::p, space :::x, comp button5:::p::p}, seq {comp button1:::p:113:p, space :p:30:p, comp button2:::p::p}}}}, space ::21:x}, seq t {par t {seq {space :0:530:x, comp button8:::p::p}, seq {comp button3:::p::p, space :::x, comp button6:::p::p}}, space :p:35:p}}"
+				"$verticalGroup": "par l {seq l {space :::p, par l {par b {comp formattedTextField1::b:p::p, comp button1::b:p::p, comp button2::b:p::p}, comp button8::t:p::p}, space s:::p, par l {par l {comp button3::t:p::p, comp button6::t:p::p}, comp button5:::p::p, comp button4::l:p::p}, space s:::p, comp scrollPane1:::p:247:p, space ::96:x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "formattedTextField1"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "类别名称查询"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "重置"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5"
+					"text": "修改"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"text": "删除"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "新建"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button7"
+					"text": "text"
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1"
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button8"
+					"text": "设备状态"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button6"
+					"text": "租用设备"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 720, 525 )
+		} )
+	}
+}

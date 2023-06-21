@@ -1,0 +1,57 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {par t {comp table1:::p:519:p, par l {seq l {space :p:41:p, comp formattedTextField1:::p:157:p, space :53:53:p, comp button1:::p:113:p, space :6:6:p, comp button2:::p::p}, seq l {space :p:471:p, comp button6:::p::p}, seq l {space :p:41:p, comp button3:::p::p, space :18:18:p, comp button4:::p::p, space :218:218:p, comp button5:::p::p}}}, space ::46:x}}"
+					"$verticalGroup": "par l {seq l {space :p:14:p, par l {comp formattedTextField1:::p::p, comp button1:::p::p, comp button2:::p::p}, space :47:47:p, par l {comp button3:::p::p, comp button4:::p::p, comp button5:::p::p}, space :::p, comp table1:::p:215:p, space :p:56:p, comp button6:::p::p, space ::83:x}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField1"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "类别名称查询"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button2"
+						"text": "重置"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button5"
+						"text": "修改"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button4"
+						"text": "删除"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button3"
+						"text": "新建"
+					} )
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button6"
+						"text": "返回"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 615, 545 )
+		} )
+	}
+}

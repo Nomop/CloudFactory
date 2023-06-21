@@ -1,0 +1,56 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :p:39:p, par l:::p {seq l {comp formattedTextField1:::p:157:p, space s:::p, comp button1:::p:113:p, space s:::p, comp button2:::p::p, space :p:232:p}, seq l {comp button4:::p::p, space :::x, comp button5:::p::p, space :p:36:p}}, space :0:0:x}, seq t {space ::599:x, comp button6:::p::p, space :p:34:p}, seq l {space :p:17:p, comp scrollPane1:::p:626:p, space ::68:x}}"
+					"$verticalGroup": "par l {seq t {space :p:40:p, par b {comp formattedTextField1::b:p::p, comp button1::b:p::p, comp button2::b:p::p}, space :p:45:p, par b {comp button4::b:p::p, comp button5::b:p::p}, space :p:47:p, comp scrollPane1:::p:155:p, space ::46:x, comp button6:::p::p, space :p:31:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField1"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "用户姓名查询"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button2"
+						"text": "重置"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button4"
+						"text": "删除"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button5"
+						"text": "修改"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button6"
+						"text": "返回"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "West"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 675, 510 )
+		} )
+	}
+}

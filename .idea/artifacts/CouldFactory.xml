@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CouldFactory">
+    <output-path>$PROJECT_DIR$/out/artifacts/CouldFactory</output-path>
+    <root id="archive" name="CouldFactory.jar">
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/json-lib-0.7.1.jar" />
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/fastjson-1.1.40.jar" />
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/commons-lang-2.5.jar" />
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/json-lib-2.1-jdk13.jar" />
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/commons-logging-1.2.jar" />
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/commons-beanutils-1.8.3.jar" />
+      <element id="file-copy" path="$USER_HOME$/AppData/Roaming/Tencent/WeMeet/Global/IM/file/2023-6/11642889158372943307/e93e93a867522818a605c4ba62adb407/json格式的例子/新建文件夹 (2)/lib/commons-collections-3.2.jar" />
+      <element id="module-output" name="picture" />
+    </root>
+  </artifact>
+</component>

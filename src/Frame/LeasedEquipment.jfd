@@ -1,0 +1,32 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:28:p, comp scrollPane1:::p:564:p, space ::21:x}, seq t {space ::475:x, comp panel1:::p::p, space :p:38:p}}"
+			"$verticalGroup": "par l {seq l {space :p:26:p, comp scrollPane1:::p:284:p, space s:::p, comp panel1:::p::p, space ::10:x}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::16:x, comp button1:::p::p, space :::p}}"
+				"$verticalGroup": "par l {seq l {space :p:18:p, comp button1:::p::p, space ::23:x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "返回"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 615, 440 )
+		} )
+	}
+}

@@ -1,0 +1,93 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {space :0:483:x};par l {seq {space :0:0:x, comp dialogPane:::p:418:p, space :0:0:x}}"
+			"$verticalGroup": "par l {space :0:509:x};par l {seq {space :0:0:x, comp dialogPane:::p:469:p, space :0:0:x}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :p:70:p, par l:::p {comp label5::l::70:x, comp label6::t::70:x, comp label1::::70:x, comp label7::t::70:x, comp label4::l::70:x, comp label3::t::70:x, comp label2::t::70:x}, space u:::p, par t {comp button1::l:p::p, par l {par l:::p {seq {comp radioButton1:::p:70:p, space :p:40:p, comp radioButton2:::p:73:p}, comp formattedTextField1:::::x}, comp formattedTextField2:::p:183:p, comp formattedTextField3:::p:183:p, comp formattedTextField4:::p:183:p, comp formattedTextField5::l:p:183:p, comp formattedTextField6::l:p:183:p}}, space ::59:x}}"
+					"$verticalGroup": "par l {seq l {space :p:43:p, par b {comp label1::b:p::p, comp formattedTextField1::b:p:17:p}, space ::24:x, par b {comp label2::b:p::p, comp formattedTextField2::b:p:17:p}, space :p:26:p, par b {comp label3::b:p::p, comp formattedTextField3::b:p:17:p}, space :p:34:p, par b {comp label4::b:p::p, comp formattedTextField4::b:p:17:p}, space :p:34:p, par l {comp label5:::p::p, par b {comp radioButton2::b:p::p, comp radioButton1::b:p::p}}, space :p:24:p, par b {comp label6::b:p::p, comp formattedTextField5::b:p:17:p}, space :p:39:p, par b {comp label7::b:p::p, comp formattedTextField6::b:p:17:p}, space :p:37:p, comp button1:::p::p, space :p:31:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "登陆账号"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "登陆密码"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "真实姓名"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "联系方式"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton1"
+						"text": "云工厂"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton2"
+						"text": "经销商"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "注册方式"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "工厂名称"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "工厂简历"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField1"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField2"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField3"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField4"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField5"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField6"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "确定"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 485, 540 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 556 )
+		} )
+	}
+}

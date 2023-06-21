@@ -1,0 +1,48 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq t {space ::46:x, comp formattedTextField1:::p:157:p, space :51:51:p, comp button1:::p:113:p, space :p:176:p, comp button3:::p::p, space :p:38:p}, seq {par l {seq l {space :p:559:p, comp button2:::p::p}, seq l {space :p:14:p, comp scrollPane1:::p:631:p}}, space ::14:x}}"
+					"$verticalGroup": "par l {seq l {space :p:34:p, par l {comp formattedTextField1:::p::p, par b {comp button1::b:p::p, comp button3::b:p::p}}, space s:::p, comp scrollPane1:::p:357:p, space ::38:x, comp button2:::p::p, space :p:30:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField1"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "工厂名称查询"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button3"
+						"text": "切换"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button2"
+						"text": "返回"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "North"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "South"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 40, 15 )
+			"size": new java.awt.Dimension( 685, 605 )
+		} )
+	}
+}

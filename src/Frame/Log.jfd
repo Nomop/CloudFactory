@@ -1,0 +1,53 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundlePackage": "sample"
+	"i18n.bundleName": "Log"
+	"i18n.keyPrefix": "Log"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {seq l {comp panel1:::::x, space :::p}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:73:p, par t {comp button1:::p::p, par l:::p {comp label3::::49:x, comp label4::::49:x}}, space :p:27:p, par l:::p {comp label2:::p:80:p, comp formattedTextField1::::151:x, comp passwordField1::l::151:x, comp button2::t:p::p}, space ::59:x}}"
+				"$verticalGroup": "par l {seq l {space :p:36:p, comp label2:::p:34:p, space :p:42:p, par b {comp label3::b:p:30:p, comp formattedTextField1::b:p::p}, space s:::p, par t {comp label4:::p:28:p, comp passwordField1:::p::p}, space :p:48:p, par b {comp button1::b:p::p, comp button2::b:p::p}, space ::74:x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "云工厂制造"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": new FormMessage( null, "Log.label3.text" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": new FormMessage( null, "Log.label4.text" )
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "formattedTextField1"
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": new FormMessage( null, "Log.button1.text" )
+					addEvent( new FormEvent( "javax.swing.event.AncestorListener", "ancestorAdded", "button1AncestorAdded", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": new FormMessage( null, "Log.button2.text" )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 85, 20 )
+			"size": new java.awt.Dimension( 390, 380 )
+		} )
+	}
+}

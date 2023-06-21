@@ -1,0 +1,54 @@
+JFDML JFormDesigner: "8.0.5.0.268" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:31:p, comp panel2:::p::p, space ::36:x}}"
+			"$verticalGroup": "par l {seq t {space :::x, comp panel2:::p::p, space :p:132:p}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:36:p, par l {par l:l {seq l {comp label4:::p:73:p, space s:::p, comp textField4:::p:189:p}, seq t {comp label5:::p:73:p, space s:::p, comp textField5:::p:189:p}}, seq {comp label2:::p:73:p, space s:::p, comp textField2:::p:189:p}, seq l {comp label7:::p:73:p, space :18:18:p, comp textField7:::p:189:p}}, space ::70:x}, seq t {space ::155:x, comp button2:::p::p, space :p:153:p}}"
+				"$verticalGroup": "par l {seq l {space :p:39:p, par b {comp label2::b:p:33:p, comp textField2::b:p::p}, space s:::p, par b {comp label4::b:p:33:p, comp textField4::b:p::p}, space s:::p, par b {comp label5::b:p:33:p, comp textField5::b:p::p}, space s:::p, par l {comp label7:::p:33:p, seq l {space :2:2:p, comp textField7:::p::p}}, space :p:55:p, comp button2:::p::p, space ::31:x}}"
+			} ) {
+				name: "panel2"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "设备名称"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "确定"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField4"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "设备类别"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField5"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "设备规格"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "设备描述"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField7"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 455, 405 )
+		} )
+	}
+}
